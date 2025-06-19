@@ -26,9 +26,15 @@ This project employs several powerful libraries from the Python data science eco
 
 While Python provides robust analytical capabilities, **Tableau** was integrated into the exploratory data analysis phase to offer a more interactive and visually rich environment for discovering insights. Tableau dashboards allowed for dynamic exploration of the data, enabling the identification of patterns and anomalies that might be less apparent in static plots. This integration provided a powerful complement to the programmatic EDA performed with Pandas.
 
+![Image](https://github.com/user-attachments/assets/d81113fe-cc6d-4145-b917-a3ae7061e543)
+
 ## Isolating Seasonal Data
 
 A significant aspect of this project involved understanding and isolating the seasonal components of the energy consumption data. Energy demand is heavily influenced by time-based factors such as hour of day, day of week, week of year, and season. By extracting these time-based features and visualizing their relationship with demand, we were able to clearly identify conditional and multiple seasonalities. Decomposing the time series further helped to separate the cyclical patterns from the overall trend and random noise, providing a clearer picture of the recurring influences on energy consumption. This isolation was crucial for building an effective forecasting model.
+
+![Image](https://github.com/user-attachments/assets/5c879c7c-7020-420f-92f8-a7f1b0726e9d)
+
+<img width="642" alt="Image" src="https://github.com/user-attachments/assets/d0ea7dec-8135-4554-97ee-ca09d4691003" />
 
 ## Forecasting with Prophet
 
